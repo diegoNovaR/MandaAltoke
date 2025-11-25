@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "970235202080",
+    "project_id": "mandaaltoke",
+    "storage_bucket": "mandaaltoke.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970235202080:android:5c664348ba092639280a45",
+        "android_client_info": {
+          "package_name": "com.example.mandaaltoke"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuo9fHhqcsfOlp4jKeMJnQsm13nKvt4zM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
