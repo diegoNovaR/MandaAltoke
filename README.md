@@ -1,0 +1,2 @@
+# MandaAltoke
+Final de dispositivos
