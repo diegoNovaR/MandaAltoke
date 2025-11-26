@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_fragments"
+    app:startDestination="@id/inicioSesionFragment">
+
+    <fragment
+        android:id="@+id/inicioSesionFragment"
+        android:name="com.example.mandaaltoke.InicioSesionFragment"
+        android:label="InicioSesionFragment" >
+        <action
+            android:id="@+id/action_inicioSesionFragment_to_crearEmpresaFragment"
+            app:destination="@id/crearEmpresaFragment" />
+        <action
+            android:id="@+id/action_inicioSesionFragment_to_programarEnvioFragment"
+            app:destination="@id/programarEnvioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearEmpresaFragment"
+        android:name="com.example.mandaaltoke.CrearEmpresaFragment"
+        android:label="fragment_crear_empresa"
+        tools:layout="@layout/fragment_crear_empresa" >
+        <action
+            android:id="@+id/action_crearEmpresaFragment_to_inicioSesionFragment"
+            app:destination="@id/inicioSesionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/programarEnvioFragment"
+        android:name="com.example.mandaaltoke.ProgramarEnvioFragment"
+        android:label="fragment_programar_envio"
+        tools:layout="@layout/fragment_programar_envio" />
+</navigation>
